@@ -26,17 +26,18 @@ Download full data and place in `data/`.
 - **F1-Score**: High on major attacks.
 
 ![Confusion Matrix](images/confusion_matrix.png)
-![Feature Importance](images/feature_importance.png)
 
 Top features: Flow Duration, Packet Lengths, IAT stats. [file:17]
 
 ## 📁 Repository Structure
 
+```text
 cicddos-rf/
-├── README.md
-├── requirements.txt
-├── data/
+├── README.md                 # Project overview and results
+├── requirements.txt          # Python dependencies
+├── data/                     # Dataset or dataset instructions
 ├── notebooks/
-│ └── cicddos-random-forest.ipynb
-├── images/
-│ └── confusion_matrix.png
+│   └── cicddos-random-forest.ipynb
+└── images/
+    └── confusion_matrix.png
+```
