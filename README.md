@@ -25,7 +25,7 @@ Download full data and place in `data/`.
 - **Accuracy**: 96% .
 - **F1-Score**: High on major attacks.
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](image/confusion_matrix.png)
 
 Top features: Flow Duration, Packet Lengths, IAT stats. [file:17]
 
