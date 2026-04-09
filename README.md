@@ -31,3 +31,12 @@ Download full data and place in `data/`.
 Top features: Flow Duration, Packet Lengths, IAT stats. [file:17]
 
 ## 📁 Repository Structure
+
+cicddos-rf/
+├── README.md
+├── requirements.txt
+├── data/
+├── notebooks/
+│ └── cicddos-random-forest.ipynb
+├── images/
+│ └── confusion_matrix.png
